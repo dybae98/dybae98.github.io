@@ -2,10 +2,11 @@ function actualizaCacheDinamico(dynamicCache, request, response){
     if(response.ok){
         //la respuesta tiene data y se debe almacaenar en cache
         caches.open(dynamicCache).then(cache => {
-            cache.put(request,response.clone() );
+           return cache.put(request,response.clone() );
+            return dynamicCache.clone();
            
         });
-        return dynamicCache.clone();
+        
     }else{//si no viene nda en la respuesta
         
         return response;
