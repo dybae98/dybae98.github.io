@@ -1,4 +1,9 @@
 //Archivo sw.js
+//Agregar la referencia al archivo js/sw-acceces.js
+
+importScripts('js/sw-acces.js');
+
+//Archivo sw.js
 //1. Determinar el contenido de los caches de la PWA
 const STATIC_CACHE = 'static-v1';
 const DYNAMIC_CACHE = 'dynamic-v1';
@@ -64,7 +69,3 @@ self.addEventListener('fetch', event => {
     });
 });
 
-//Archivo sw.js
-//Agregar la referencia al archivo js/sw-acceces.js
-
-importScripts('js/sw-acces.js');
