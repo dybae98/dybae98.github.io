@@ -67,4 +67,4 @@ self.addEventListener('fetch', event => {
 //Archivo sw.js
 //Agregar la referencia al archivo js/sw-acceces.js
 
-importScripts('js/sw-acces.js')
+importScripts('js/sw-acces.js');
