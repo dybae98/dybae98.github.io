@@ -12,8 +12,7 @@ const APP_SHELL = [
     '/',
     'index.html',
     'css/style.css',
-    'favicon.ico',
-    'images/avs/img1.jpg',
+    'favicon.icon',
     'js/app.js',    
     'js/sw-acces.js'  
 ];
@@ -68,7 +67,7 @@ self.addEventListener('fetch', event => {
         }
     });
 
-    event.respondWith(respuesta);
+  
 });
 
 
