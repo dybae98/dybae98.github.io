@@ -12,16 +12,14 @@ const APP_SHELL = [
     '/',
     'index.html',
     'css/style.css',
-    'favicon.ico',
-    'js/app.js',    
-    'js/sw-acces.js'  
+    'js/app.js',
+    //'js/sw-acces.js'  
 ];
 const APP_SHELL_INMUTABLE = [   
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
     'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
-    'css/style.css',
-    'libs/jquery.js'
+    'js/libs/jquery.js'
 ];
 
 //Archivo sw.js
