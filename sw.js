@@ -12,7 +12,7 @@ const APP_SHELL = [
     '/',
     'index.html',
     'css/style.css',
-    'favicon.icon',
+    'favicon.ico',
     'js/app.js',    
     'js/sw-acces.js'  
 ];
