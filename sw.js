@@ -21,6 +21,10 @@ const APP_SHELL_INMUTABLE = [
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
     'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
+    'http://www.croop.cl/UI/twitter/images/doug.jpg',
+    'http://www.croop.cl/UI/twitter/images/carl.jpg',
+    'http://www.croop.cl/UI/twitter/images/russel.jpg',
+    'http://www.croop.cl/UI/twitter/images/carl.jpg',
     'css/style.css',
     'libs/jquery.js'
 ];
@@ -68,7 +72,7 @@ self.addEventListener('fetch', event => {
         }
     });
 
-    
+    event.respondWith(respuesta);
 });
 
 
